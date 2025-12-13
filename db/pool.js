@@ -1,16 +1,16 @@
+require("dotenv").config();
 const { Pool } = require("pg");
 
-// TODO: read from environment variables
 module.exports = new Pool({
-	host: "localhost", // or wherever the db is hosted
-	user: "<role_name>",
-	database: "top_users",
-	password: "<role_password>",
-	port: 5432, // The default port
+	host: "localhost",
+	user: process.env.DB_USER,
+	database: "NAME_OF_DATABASE_FOR_THIS_PROJECT",
+	password: process.env.DB_PASSWORD,
+	port: 5432,
 });
 
 // alternatively, can use Connection URI: https://node-postgres.com/features/connecting#connection-uri
 // module.exports = new Pool({
 //   connectionString:
-//     "postgresql://<role_name>:<role_password>@localhost:5432/<database>",
+//     "postgresql://<role_name>:<role_password>@localhost:5432/<databaseName>",
 // });
