@@ -23,6 +23,7 @@
 	},
 	"homepage": "https://github.com/henrylin03/template--expressjs-ejs-postgres#readme",
 	"dependencies": {
+		"ejs": "^3.1.10",
 		"express": "^5.2.1"
 	},
 	"devDependencies": {
