@@ -2,10 +2,8 @@
   "name": "template--expressjs-ejs-postgres",
   "version": "1.0.0",
   "description": "Template to quickly spin-up ExpressJS (Node JS) app, with EJS templating",
-  "main": "dist/app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "src/app.js",
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/henrylin03/template--expressjs-ejs-postgres.git"
@@ -23,13 +21,6 @@
   },
   "homepage": "https://github.com/henrylin03/template--expressjs-ejs-postgres#readme",
   "dependencies": {
-    "ejs": "^3.1.10",
     "express": "^5.2.1"
-  },
-  "devDependencies": {
-    "@types/express": "^5.0.6",
-    "@types/node": "^25.0.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
   }
 }
