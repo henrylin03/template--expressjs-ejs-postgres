@@ -7,7 +7,7 @@ const app = express();
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
-app.get("/", (_req, res) => res.send("hello world!"));
+app.get("/", (_req, res) => res.render("index"));
 
 const PORT = 3000;
 app.listen(PORT, (error) => {
