@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Template to quickly spin-up ExpressJS (Node JS) app, with EJS templating",
   "main": "src/app.js",
-  "scripts": {},
+  "scripts": {
+    "dev": "node --watch src/app.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/henrylin03/template--expressjs-ejs-postgres.git"
