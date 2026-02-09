@@ -3,6 +3,7 @@
 	"description": "Template to quickly spin-up ExpressJS (Node JS) app, with EJS templating",
 	"main": "app.js",
 	"scripts": {
+		"build": "tsc",
 		"dev": "node --watch app.js",
 		"seed-db": "node db/populatedb.js"
 	},
