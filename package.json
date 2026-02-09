@@ -1,6 +1,5 @@
 {
 	"name": "template--expressjs-ejs-postgres",
-	"version": "1.0.0",
 	"description": "Template to quickly spin-up ExpressJS (Node JS) app, with EJS templating",
 	"main": "app.js",
 	"scripts": {
@@ -18,7 +17,7 @@
 	],
 	"author": "Henry Lin",
 	"license": "MIT",
-	"type": "commonjs",
+	"type": "module",
 	"bugs": {
 		"url": "https://github.com/henrylin03/template--expressjs-ejs-postgres/issues"
 	},
