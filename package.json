@@ -1,10 +1,10 @@
 {
 	"name": "template--expressjs-ejs-postgres",
-	"version": "1.0.0",
 	"description": "Template to quickly spin-up ExpressJS (Node JS) app, with EJS templating",
 	"main": "app.js",
 	"scripts": {
-		"dev": "node --watch app.js",
+		"build": "tsc",
+		"dev": "tsx ./src/app.ts",
 		"seed-db": "node db/populatedb.js"
 	},
 	"repository": {
@@ -18,7 +18,7 @@
 	],
 	"author": "Henry Lin",
 	"license": "MIT",
-	"type": "commonjs",
+	"type": "module",
 	"bugs": {
 		"url": "https://github.com/henrylin03/template--expressjs-ejs-postgres/issues"
 	},
@@ -31,6 +31,10 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.3.8",
-		"lefthook": "^2.0.11"
+		"@types/express": "^5.0.6",
+		"@types/node": "^25.2.2",
+		"lefthook": "^2.0.11",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
 	}
 }
