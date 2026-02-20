@@ -1,4 +1,5 @@
-const pool = require("./pool");
+// import { Pool } from "pg";
+import "dotenv/config";
 
 /* WRITE QUERIES HERE */
 

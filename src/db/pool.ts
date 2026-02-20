@@ -1,5 +1,5 @@
-require("dotenv").config();
-const { Pool } = require("pg");
+import { Pool } from "pg";
+import "dotenv/config";
 
 module.exports = new Pool({
 	host: "localhost",

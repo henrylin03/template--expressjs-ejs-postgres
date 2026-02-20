@@ -36,6 +36,7 @@
 		"@biomejs/biome": "2.4.4",
 		"@tailwindcss/typography": "^0.5.19",
 		"@types/express": "^5.0.6",
+		"@types/pg": "^8.16.0",
 		"@types/node": "^25.3.0",
 		"daisyui": "^5.5.19",
 		"lefthook": "^2.1.1",
