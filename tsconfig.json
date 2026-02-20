@@ -8,11 +8,9 @@
 		"module": "nodenext",
 		"moduleResolution": "nodenext",
 		"target": "esnext",
-		"types": [],
 		// For nodejs:
-		// "lib": ["esnext"],
-		// "types": ["node"],
-		// and npm install -D @types/node
+		"types": ["node"],
+		"lib": ["esnext"],
 
 		// Other Outputs
 		"sourceMap": true,
@@ -38,7 +36,13 @@
 		"noUncheckedSideEffectImports": true,
 		"moduleDetection": "force",
 		"skipLibCheck": true,
-		"esModuleInterop": true
+		"esModuleInterop": true,
+
+		// aliases
+		"paths": {
+			"@/*": ["./src/*"],
+			"@pages/*": ["./src/views/pages/*"]
+		}
 	},
 	"include": ["src/**/*"]
 }
