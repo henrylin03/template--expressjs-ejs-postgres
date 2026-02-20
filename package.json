@@ -1,6 +1,6 @@
 {
 	"name": "template--expressjs-ejs-postgres",
-	"description": "Template to quickly spin-up ExpressJS (Node JS) app, with EJS templating",
+	"description": "Template to spin-up Express.js full-stack app, with TypeScript and EJS templating",
 	"main": "app.js",
 	"scripts": {
 		"build": "tsc",
